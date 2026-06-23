@@ -9,20 +9,10 @@ const admin = (props) => {
     const [productSelect, setProductSelect] = useState(null);
     const [productObserver, setProductObserver] = useState(true);
 
-    useEffect(() => {
-        console.log(productSelect);
-    }, [productSelect]);
-
     return (
         <div className={styles.main}>
-            <div className={styles['toggle-button-div']}>
-                <button
-                    onClick={() => props.setAppState('user')}
-                    className={styles.button}
-                    type="button"
-                >
-                    Ir para tela da loja
-                </button>
+            <div className={styles["toggle-button-div"]}>
+                <button onClick={() => props.setAppState("user")} className={styles.button} type='button'>Ir para tela da loja</button>
             </div>
             <div className={styles.content}>
                 {popupState === 'edit-popup' && productSelect && (

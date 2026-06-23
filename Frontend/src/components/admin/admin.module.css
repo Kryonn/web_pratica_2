@@ -11,11 +11,9 @@
 }
 
 .content {
-    /* height: 1000px; */
     width: 1200px;
     border-radius: 40px;
     padding: 30px;
-    /* box-sizing: border-box; */
     box-sizing: border-box;
     background-color: var(--purple2);
 }
@@ -24,7 +22,6 @@
     width: 100%;
     display: flex;
     align-items: left;
-    /* padding-top: 50px; */
     padding: 50px;
     padding-left: 100px;
     box-sizing: border-box;
