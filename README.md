@@ -40,26 +40,20 @@ Abra o seu terminal (ou subsistema WSL) e clone o projeto:
 git clone https://github.com/Kryonn/web_pratica_2.git
 cd web_pratica_2
 ```
-## 2. Instalar as dependências do Backend:
+### 2. Configurar e Iniciar o Backend
+Abra um terminal na raiz do projeto e execute os comandos para instalar as dependências (incluindo o driver do SQLite em memória) e iniciar o servidor:
 ```bash
 cd Backend
 npm install
+npm run dev
 ```
+O servidor do Web Service estará rodando e pronto para receber requisições.
 
-## 3. Instalar as dependências do Frontend:
+### 3. Configurar e Iniciar o Frontend (React)
+Abra uma nova janela/aba de terminal, navegue a partir da raiz do projeto e execute:
 ```bash
 cd Frontend
 npm install
-```
-
-## 4. Iniciar o servidor do Backend:
-```bash
-cd Backend
 npm run dev
 ```
-
-## 4. Iniciar o servidor do Frontend:
-```bash
-cd Frontend
-npm run dev
-```
+Acesse o endereço indicado no terminal (geralmente http://localhost:5173) para interagir com a loja.
