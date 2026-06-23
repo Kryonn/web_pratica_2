@@ -1,0 +1,85 @@
+.main {
+    width: 100%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--purple1);
+    color: var(--yellow1);
+    gap: 10px;
+}
+
+.top-div {
+    display: flex;
+    width: 100%;
+    height: 70px;
+}
+
+.text-div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.name-text {
+    flex: 2;
+    width: 100%;
+}
+
+.value-text {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+}
+
+.image-text {
+    flex: 6;
+    width: 100%;
+}
+
+.description-text {
+    flex: 6;
+    width: 100%;
+}
+
+.bottom-div {
+    background-color: transparent;
+    width: 100%;
+    height: 40px;
+    background-color: var(--purple4);
+    border-radius: 0px 0px 5px 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 70px;
+}
+
+.hidden {
+    display: none;
+}
+
+.button-div {
+    display: flex;
+    gap: 10px;
+}
+
+.button {
+    border-radius: 5px;
+    border: none;
+    height: 100%;
+    background-color: transparent;
+    aspect-ratio: 1 / 1;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--purple4);
+}
+
+.button svg {
+    fill: var(--yellow1);
+}

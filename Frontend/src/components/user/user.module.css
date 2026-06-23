@@ -1,0 +1,25 @@
+.main {
+    background-color: var(--purple1);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.content {
+    width: 1200px;
+    border-radius: 40px;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: var(--purple2);
+}
+
+.banner-img {
+    width: 100%;
+    position: relative;
+    top: 20px;
+}
