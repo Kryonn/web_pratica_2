@@ -4,7 +4,7 @@ import Admin from './components/admin/admin.jsx';
 import './App.css';
 
 function App() {
-    const [appState, setAppState] = useState('admin');
+    const [appState, setAppState] = useState('user');
 
     if (appState === 'user') {
         return (
